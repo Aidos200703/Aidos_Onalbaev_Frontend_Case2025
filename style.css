@@ -256,7 +256,7 @@ section{
     height: 260px;
     background: rgb(86, 86, 86);
     display: flex;
-    
+
 }
 
 .social_info{
@@ -316,7 +316,7 @@ section{
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 426px) {
     header{
         padding-bottom: 0px;
     }
