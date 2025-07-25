@@ -323,7 +323,7 @@ section{
 
     .menu{
         
-        width: 270px;
+        width: 310px;
         margin: 0 auto;
         padding: 20px 0px;
         
@@ -334,12 +334,16 @@ section{
         text-align: center;
         text-decoration: none;
         color: #000000;
-        font-size: 14px;
+        font-size: 16px;
     
         font-family: 'Gilroy ExtraBold', sans-serif;
         font-weight: 400;
-        transition: 0.5s;
+        transition: none;
     }
+
+    .menu a:hover{
+        color: #000000;
+    } 
     
     .menu a:nth-child(3){
         margin-right: 0px;
@@ -463,14 +467,14 @@ section{
     background: rgb(88, 166, 255);
     width: 170px;
     border-radius: 30px;
-    transition: 0.5s;
+    transition: none    ;
     cursor: pointer;
     margin-bottom: 15px;
 }
 
 .card:hover{
-    color: rgb(88, 166, 255) ;
-    background: #000;
+    color: #000;
+    background: rgb(88, 166, 255);
 }
 
 .cards .card:nth-child(4){
@@ -512,12 +516,12 @@ section{
     width:355px;
     margin: 0 auto;
     border-radius: 20px;
-    transition: 0.5s;
+    transition: none;
 }
 
 .bg_my_quote:hover{
-    color: rgb(88, 166, 255);
-    background-color: #000;
+    color: #000;
+    background-color: #b0b0b0;
 }
 
 .title_quote{
